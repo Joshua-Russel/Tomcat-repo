@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html
+	lang="en"
+	class="h-full"
+>
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Document1</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,600&display=swap"
+			rel="stylesheet"
+		/>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+		<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio"></script>
+		<link
+			rel="stylesheet"
+			href="/app/stylesheets/form.css"
+		/>
+	</head>
+
+	<body class="h-full flex flex-col justify-between">
+		<header class="h-2/6">
+			<div class="h-3/6 flex flex-row justify-end bg-gray-600">
+				<nav class="w-1/4 flex flex-row justify-start items-end">
+					<a
+						class="nav-link active text-white font-bold px-2 py-1 m-1.5 border-gray-300 text-center transition hover:shadow-lg hover:shadow- duration-200 hover:translate-y-px hover:bg-teal-300"
+						href="Home"
+						active
+					>
+						home
+					</a>
+
+					<a
+						class="nav-link text-white px-2 py-1 m-1.5 border-gray-300 text-center"
+						href="/app/form"
+					>
+						login
+					</a>
+					<a
+						class="nav-link text-white px-2 py-1 m-1.5 border-gray-300 text-center"
+						href="About"
+					>
+						register
+					</a>
+					<a
+						class="nav-link text-white px-2 py-1 m-1.5 border-gray-300 text-center"
+						href="About"
+					>
+						logout
+					</a>
+
+					<!-- <base href="localhost:8080/app"> -->
+				</nav>
+			</div>
+			<h1 class="h-2/4 mt-8 text-center text-3xl">LOGIN</h1>
+		</header>
+
+		<div class="size-1/3 self-center">
+			<form
+				class="p-5 flex flex-col"
+				action="app.jsp"
+				method="post"
+			>
+				<label
+					class="my-1"
+					for="username"
+				>
+					username:
+				</label>
+				<input
+					class="my-1 bg-white input"
+					type="text"
+					id="username"
+					name="username"
+				/>
+
+				<label
+					class="mt-2 mb-1"
+					for="pass"
+				>
+					password:
+				</label>
+				<input
+					class="my-1 input"
+					type="password"
+					id="pass"
+					name="password"
+				/>
+
+				<button class="my-4 w-1/3 self-center border border-blue-300">
+					submit
+				</button>
+			</form>
+		</div>
+		<!-- <script >
+        const form=document.querySelector('form')
+        form.addEventListener('click',(e)=>{
+          const pt=e.pointerType;
+            console.log({pt})
+        })
+    </script> -->
+		<footer class="h-1/6 bg-slate-600">
+			<nav class="w-1/4 flex flex-row justify-start items-end">
+				<a
+					class="text-white px-2 py-1 m-1.5 border-gray-300 text-center"
+					href="Settings"
+				>
+					settings
+				</a>
+				<a
+					class="text-white px-2 py-1 m-1.5 border-gray-300 text-center"
+					href="Contact"
+				>
+					contact
+				</a>
+				<a
+					class="text-white px-2 py-1 m-1.5 border-gray-300 text-center"
+					href="About"
+				>
+					about
+				</a>
+			</nav>
+		</footer>
+		<script src="./form.js"></script>
+	</body>
+</html>

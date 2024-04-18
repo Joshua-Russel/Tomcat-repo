@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="insure.xsl"?>
+<insuranceApp>
+    <title>Mining Workers Insurance</title>
+    <description>An insurance application for mining workers providing coverage for various risks associated with mining activities.</description>
+    <coverageTypes>
+        <coverageType>
+            <name>Accident Insurance</name>
+            <description>Provides coverage for accidents that occur during mining operations.</description>
+        </coverageType>
+        <coverageType>
+            <name>Health Insurance</name>
+            <description>Offers medical coverage for mining-related health issues and illnesses.</description>
+        </coverageType>
+        <coverageType>
+            <name>Disability Insurance</name>
+            <description>Provides financial support in case of disabilities resulting from mining accidents or injuries.</description>
+        </coverageType>
+        <coverageType>
+            <name>Life Insurance</name>
+            <description>Provides financial assistance to the family of a mining worker in case of the worker's death.</description>
+        </coverageType>
+    </coverageTypes>
+    <eligibilityCriteria>
+        <criteria>Employment in a mining industry</criteria>
+        <criteria>Valid documentation proving mining employment</criteria>
+    </eligibilityCriteria>
+    <contactInformation>
+        <phoneNumber>123-456-7890</phoneNumber>
+        <email>info@mininginsurance.com</email>
+        <address>+
+            <street>123 Mining Avenue</street>
+            <city>Minetown</city>
+            <state>Mineland</state>
+            <country>Earth</country>
+            <zipcode>12345</zipcode>
+        </address>
+    </contactInformation>
+</insuranceApp>

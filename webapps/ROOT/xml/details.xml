@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="details.xsl"?>
+<insuranceData>
+    <users>
+        <user>
+            <id>1</id>
+            <name>John Doe</name>
+            <age>35</age>
+            <gender>Male</gender>
+            <occupation>Mine Engineer</occupation>
+            <insurancePolicy>
+                <policyNumber>ABC123</policyNumber>
+                <type>Accident Insurance</type>
+                <status>Active</status>
+                <coverageAmount>Rs.100,000</coverageAmount>
+                <startDate>2023-01-01</startDate>
+                <endDate>2024-01-01</endDate>
+            </insurancePolicy>
+            <insurancePolicy>
+                <policyNumber>DEF456</policyNumber>
+                <type>Health Insurance</type>
+                <status>Expired</status>
+                <coverageAmount>Rs.200,000</coverageAmount>
+                <startDate>2022-06-01</startDate>
+                <endDate>2023-06-01</endDate>
+            </insurancePolicy>
+        </user>
+        <user>
+            <id>2</id>
+            <name>Jane Smith</name>
+            <age>28</age>
+            <gender>Female</gender>
+            <occupation>Miner</occupation>
+            <insurancePolicy>
+                <policyNumber>GHI789</policyNumber>
+                <type>Accident Insurance</type>
+                <status>Pending</status>
+                <coverageAmount>Rs.150,000</coverageAmount>
+                <startDate>2024-02-01</startDate>
+                <endDate>2025-02-01</endDate>
+            </insurancePolicy>
+        </user>
+
+
+        <user>
+            <id>3</id>
+            <name>Johnson Doberman</name>
+            <age>35</age>
+            <gender>Male</gender>
+            <occupation>Miner</occupation>
+            <insurancePolicy>
+                <policyNumber>ABC123</policyNumber>
+                <type>Accident Insurance</type>
+                <status>Active</status>
+                <coverageAmount>Rs.100,000</coverageAmount>
+                <startDate>2023-01-01</startDate>
+                <endDate>2024-01-01</endDate>
+            </insurancePolicy>
+            <insurancePolicy>
+                <policyNumber>DEF456</policyNumber>
+                <type>Health Insurance</type>
+                <status>Expired</status>
+                <coverageAmount>Rs.200,000</coverageAmount>
+                <startDate>2022-06-01</startDate>
+                <endDate>2023-06-01</endDate>
+            </insurancePolicy>
+        </user>
+        <user>
+            <id>4</id>
+            <name>Clark Kent</name>
+            <age>28</age>
+            <gender>Female</gender>
+            <occupation>Miner</occupation>
+            <insurancePolicy>
+                <policyNumber>GHI789</policyNumber>
+                <type>Accident Insurance</type>
+                <status>Pending</status>
+                <coverageAmount>Rs.150,000</coverageAmount>
+                <startDate>2024-02-01</startDate>
+                <endDate>2025-02-01</endDate>
+            </insurancePolicy>
+        </user>
+        <user>
+            <id>5</id>
+            <name>Michael Johnson</name>
+            <age>40</age>
+            <gender>Male</gender>
+            <occupation>Driller</occupation>
+            <insurancePolicy>
+                <policyNumber>JKL012</policyNumber>
+                <type>Life Insurance</type>
+                <status>Active</status>
+                <coverageAmount>Rs.500,000</coverageAmount>
+                <startDate>2021-12-01</startDate>
+                <endDate>2022-12-01</endDate>
+            </insurancePolicy>
+            <insurancePolicy>
+                <policyNumber>MNO345</policyNumber>
+                <type>Accident Insurance</type>
+                <status>Active</status>
+                <coverageAmount>Rs.200,000</coverageAmount>
+                <startDate>2023-03-01</startDate>
+                <endDate>2024-03-01</endDate>
+            </insurancePolicy>
+        </user>
+
+    </users>
+
+
+</insuranceData>
