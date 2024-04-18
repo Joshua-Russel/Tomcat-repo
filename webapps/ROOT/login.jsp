@@ -21,7 +21,9 @@
         response.sendRedirect("/login");
      }
      else{
-        response.sendRedirect("/home?uname="+uname);
+      session.setAttribute("user",uname);
+      session.setMaxInactiveInterval(100);
+        response.sendRedirect("/home");
      }
 
     } catch (Exception e) { System.out.println(e.getMessage());} %>

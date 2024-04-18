@@ -61,4 +61,7 @@
     <servlet-name>contact</servlet-name>
     <url-pattern>/contact</url-pattern>
   </servlet-mapping>
+  <session-config>
+    <session-timeout>10</session-timeout>
+  </session-config>
 </web-app>

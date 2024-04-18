@@ -16,6 +16,7 @@
 		<header class="header">
 			<h2>Ins Service</h2>
 			<nav class="h-nav">
+				<%if(session.getAttribute("user") != null){%>
 				<a
 					href="/home"
 					class="h-nav-a"
@@ -34,6 +35,26 @@
 				>
 					Details
 				</a>
+				<a
+					href="logout.jsp"
+					class="h-nav-a"
+				>
+					Logout
+				</a>
+				<%} else {%>
+				<a
+					href="/login"
+					class="h-nav-a"
+				>
+					Login
+				</a>
+				<a
+					href="/register.html"
+					class="h-nav-a"
+				>
+					Register
+				</a>
+				<%}%>
 			</nav>
 		</header>
 	

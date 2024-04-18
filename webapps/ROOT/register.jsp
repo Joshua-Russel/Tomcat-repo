@@ -20,6 +20,7 @@
       pr.setString(3, pass);
       pr.setString(4, email);
       int rs = pr.executeUpdate();
-      response.sendRedirect("/home?uname="+uname);    
+      session.setAttribute("user",uname);
+      response.sendRedirect("/home");    
 
     } catch (Exception e) { System.out.println(e.getMessage());} %>
